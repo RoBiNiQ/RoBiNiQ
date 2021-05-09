@@ -1,0 +1,13 @@
+# المكاتب
+
+pip install pyTelegramBotAPI
+pip install requests
+
+
+# افتح ملف config.py و عدل عليه
+
+# اوامر التشغيل
+
+python bot.py
+
+سوي الخطوات بالتسلسل
